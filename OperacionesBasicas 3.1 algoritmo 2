@@ -1,0 +1,26 @@
+Algoritmo OperacionesBasicas
+    Definir n1, n2 Como Real
+    Escribir "Ingresa dos números:"
+    Leer n1, n2
+	
+    // Operaciones aritméticas
+    suma <- n1 + n2
+    resta <- n1 - n2
+    multiplicacion <- n1 * n2
+    Si n2 <> 0 Entonces
+        division <- n1 / n2
+        Escribir "División:", division
+    Sino
+        Escribir "No se puede dividir entre cero."
+    FinSi
+	
+    // Comparaciones
+    Escribir "Suma:", suma, " Resta:", resta, " Multiplicación:", multiplicacion
+    Si suma > multiplicacion Entonces
+        Escribir "Suma > Multiplicación"
+    Sino Si suma < multiplicacion Entonces
+			Escribir "Multiplicación > Suma"
+		Sino
+			Escribir "Suma = Multiplicación"
+		FinSi
+FinAlgoritmo
